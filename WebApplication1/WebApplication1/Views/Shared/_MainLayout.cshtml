@@ -1,0 +1,218 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Free Bootstrap Themes by Zerotheme dot com - Free Responsive Html5 Templates">
+    <meta name="author" content="https://www.Zerotheme.com">
+
+    <title>Perfume Shop</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="~/Asset/css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="~/Asset/css/style.css">
+
+
+    <!-- Custom Fonts -->
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="fonts/font-slider.css" type="text/css">
+
+    <!-- jQuery and Modernizr-->
+    <script src="~/Asset/js/jquery-2.1.1.js"></script>
+
+    <!-- Core JavaScript Files -->
+    <script src="~/Asset/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="js/html5shiv.js"></script>
+        <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <!--Top-->
+    <nav id="top">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <select class="language">
+                        <option value="English" selected>English</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Vietnamese">Vietnamese</option>
+                    </select>
+                    <select class="currency">
+                        <option value="USD" selected>USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="VND">VND</option>
+                    </select>
+                </div>
+                <div class="col-xs-6">
+                    <ul class="top-link">
+                        <li><a href="account.html"><span class="glyphicon glyphicon-user"></span> My Account</a></li>
+                        <li><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Header-->
+    <header class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div id="logo"><img src="~/Asset/images/web_logo.png" /></div>
+            </div>
+            <div class="col-md-4">
+                <form class="form-search">
+                    <input type="text" class="input-medium search-query">
+                    <button type="submit" class="btn"><span class="glyphicon glyphicon-search"></span></button>
+                </form>
+            </div>
+            <div class="col-md-4">
+                <div id="cart"><a class="btn btn-1" href="cart.html"><span class="glyphicon glyphicon-shopping-cart"></span>CART : 0 ITEM</a></div>
+            </div>
+        </div>
+    </header>
+    <!--Navigation-->
+    <nav id="menu" class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <span id="heading" class="visible-xs">Categories</span>
+                <button type="button" class="btn btn-navbar navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse"><i class="fa fa-bars"></i></button>
+            </div>
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <li>@Html.ActionLink("Home", "Index", "Home")</a></li>
+                    <li class="dropdown">
+                       @Html.ActionLink("Products", "Index", "Shop")
+                        <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <ul class="list-unstyled">
+                                    <li><a href="category.html">Window</a></li>
+                                    <li><a href="category.html">MacBook</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        @Html.ActionLink("TOP SALES", "Index", "Shop")</a>
+                        <div class="dropdown-menu">
+                            <div class="dropdown-inner">
+                                <ul class="list-unstyled">
+                                    <li><a href="category.html">Chanel</a></li>
+                                    <li><a href="category.html">Lancome</a></li>
+                                    <li><a href="category.html">Chloe</a></li>
+                                    <li><a href="category.html">D&G</a></li>
+                                    <li><a href="category.html">Dior</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        @Html.ActionLink("ALL BRANDS", "Index", "Home")</a>  
+                        <div class="dropdown-menu" style="margin-left: -203.625px;">
+                            <div class="dropdown-inner">
+                                <ul class="list-unstyled">
+                                    <li><a href="category.html">Chanel</a></li>
+                                    <li><a href="category.html">Lancome</a></li>
+                                    <li><a href="category.html">Chloe</a></li>
+                                    <li><a href="category.html">D&G</a></li>
+                                    <li><a href="category.html">Dior</a></li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><a href="category.html">Estee Lauder</a></li>
+                                    <li><a href="category.html">Guerlain</a></li>
+                                    <li><a href="category.html">Giorgio Armani</a></li>
+                                    <li><a href="category.html">Calvin Klein</a></li>
+                                    <li><a href="category.html">Tom Ford</a></li>
+                                </ul>
+                                <ul class="list-unstyled">
+                                    <li><a href="category.html">Burberry</a></li>
+                                    <li><a href="category.html">Hermes</a></li>
+                                    <li><a href="category.html">MFK</a></li>
+                                    <li><a href="category.html">Narciso</a></li>
+                                    <li><a href="category.html">YSL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li> @Html.ActionLink("Accessories", "Index", "Home")</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--//////////////////////////////////////////////////-->
+    <!--///////////////////HomePage///////////////////////-->
+    <!--//////////////////////////////////////////////////-->
+    @RenderBody()
+    <footer>
+        <div class="container">
+            <div class="wrap-footer">
+                <div class="row">
+                    <div class="col-md-3 col-footer footer-1">
+                        <img src="~/Asset/images/logoFooter.png" />
+                        <ul>
+                            <p>Hệ thống cửa hàng</p>
+                            <li>365/65 Nguyễn Gia Trí, phường 25, Bình Thạnh</li>
+                            <li> 44/22 Điện Biên Phủ, phường Chính Gián, quận Thanh Khê, Đà Nẵng</li>
+                            <li>xóm 5, thôn Gia An, Hoài Châu Bắc, Hoài Nhơn, Bình Định</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-footer footer-2">
+                        <div class="heading"><h4>Customer Service</h4></div>
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Delivery Information</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-footer footer-3">
+                        <div class="heading"><h4>My Account</h4></div>
+                        <ul>
+                            <li><a href="#">My Account</a></li>
+                            <li><a href="#">Brands</a></li>
+                            <li><a href="#">Gift Vouchers</a></li>
+                            <li><a href="#">Specials</a></li>
+                            <li><a href="#">Site Map</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-3 col-footer footer-4">
+                        <div class="heading"><h4>Contact Us</h4></div>
+                        <ul>
+                            <li><span class="glyphicon glyphicon-home"></span>UTH University School</li>
+                            <li><span class="glyphicon glyphicon-earphone"></span>+84 905 884 303</li>
+                            <li><span class="glyphicon glyphicon-envelope"></span>giakiethcb@gmail.com</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        KIT PERFUME 2024 - Hosted by <a href="https://www.Zerotheme.com">Vo Pham Gia Kiet</a>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="pull-right">
+                            <ul>
+                                <li><img src="~/Asset/images/visa-curved-32px.png" /></li>
+                                <li><img src="~/Asset/images/paypal-curved-32px.png" /></li>
+                                <li><img src="~/Asset/images/discover-curved-32px.png" /></li>
+                                <li><img src="~/Asset/images/maestro-curved-32px.png" /></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
