@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WebApplication1.Models.BUS;
 
 namespace WebApplication1.Controllers
 {
@@ -11,17 +12,19 @@ namespace WebApplication1.Controllers
         // GET: Shop
         public ActionResult Index()
         {
-            return View();
-        }
+			var db = ShopOnlineBUS.DanhSach();
+			return View(db);
+		}
 
-        // GET: Shop/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
+		// GET: Shop/Details/5
+		public ActionResult Details(String id)
+		{
+			var db = ShopOnlineBUS.ChiTiet(id);
+			return View(db); // Make sure db is not null
+		}
 
-        // GET: Shop/Create
-        public ActionResult Create()
+		// GET: Shop/Create
+		public ActionResult Create()
         {
             return View();
         }

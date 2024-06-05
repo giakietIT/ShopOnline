@@ -126,6 +126,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BUS\ShopOnlineBUS.cs" />
+    <Compile Include="Models\Generated\Database.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Database.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\PetaPoco.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -136,6 +143,22 @@
     <Content Include="Asset\font-awesome\fonts\fontawesome-webfont.svg" />
     <Content Include="Asset\fonts\font-slider.css" />
     <Content Include="Asset\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Asset\images\1.png" />
+    <Content Include="Asset\images\10.png" />
+    <Content Include="Asset\images\11.png" />
+    <Content Include="Asset\images\12.png" />
+    <Content Include="Asset\images\13.png" />
+    <Content Include="Asset\images\14.png" />
+    <Content Include="Asset\images\15.png" />
+    <Content Include="Asset\images\16.png" />
+    <Content Include="Asset\images\2.png" />
+    <Content Include="Asset\images\3.png" />
+    <Content Include="Asset\images\4.png" />
+    <Content Include="Asset\images\5.png" />
+    <Content Include="Asset\images\6.png" />
+    <Content Include="Asset\images\7.png" />
+    <Content Include="Asset\images\8.png" />
+    <Content Include="Asset\images\9.png" />
     <Content Include="Asset\images\afmafRemake.png" />
     <Content Include="Asset\images\close.png" />
     <Content Include="Asset\images\discover-curved-32px.png" />
@@ -187,6 +210,10 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="Models\Generated\Database.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Database.cs</LastGenOutput>
+    </Content>
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -226,6 +253,8 @@
     <Content Include="Asset\fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Asset\fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="Asset\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Models\Generated\PetaPoco.Generator.ttinclude" />
+    <Content Include="Models\Generated\PetaPoco.Core.ttinclude" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
@@ -258,7 +287,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Product\" />
   </ItemGroup>
   <ItemGroup>
@@ -287,6 +315,9 @@
     <Content Include="Scripts\bootstrap.bundle.js.map" />
     <Content Include="Scripts\jquery-3.4.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.4.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

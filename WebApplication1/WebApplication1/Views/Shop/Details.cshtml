@@ -1,4 +1,6 @@
-﻿
+﻿@model ShopOnlineConnection.SanPham
+
+
 @{
     ViewBag.Title = "Details";
     Layout = "~/Views/Shared/_MainLayout.cshtml";
@@ -9,9 +11,9 @@
         <div class="row">
             <div class="col-lg-12">
                 <ul class="breadcrumb">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="category.html">Category</a></li>
-                    <li><a href="#">GUCCI</a></li>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</a></li>
+                    <li>@Html.ActionLink("Category", "Index", "Shop")</a></li>
+                    <li><a href="#">@Model.TenSanPham</a></li>
                 </ul>
             </div>
         </div>
@@ -20,20 +22,20 @@
                 <div class="product">
                     <div class="col-md-6">
                         <div class="image">
-                            <img src="~/Asset/images/gucci.png" />
+                            <img src="~/Asset/images/@Model.HinhChinh" />
                             <div class="image-more">
                                 <ul class="row">
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/gucci.png"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh1"></a>
                                     </li>
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/afmafRemake.png"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh2"></a>
                                     </li>
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/gio.png"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh3"></a>
                                     </li>
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/valentinov2.png"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh4"></a>
                                     </li>
                                 </ul>
                             </div>
@@ -41,20 +43,22 @@
                     </div>
                     <div class="col-md-6">
                         <div class="caption">
-                            <div class="name"><h3>Aliquam erat volutpat</h3></div>
+                            <div class="name"><h3>@Model.TenSanPham</h3></div>
                             <div class="info">
                                 <ul>
-                                    <li>Brand: text</li>
-                                    <li>ID: 0122222</li>
+                                    
+                                    <li>ID: @Model.MaNhaSanXuat</li>
                                 </ul>
                             </div>
-                            <div class="price">$122<span>$98</span></div>
+                            <div class="price">@Model.Gia$ USD</div>
                             <div class="options">
                                 AVAILABLE OPTIONS
                                 <select>
                                     <option value="" selected>----Please Select----</option>
                                     <option value="red">RED</option>
                                     <option value="black">BLACK</option>
+                                    <option value="black">BLUE</option>
+                                    <option value="black">GREEN</option>
                                 </select>
                             </div>
                             <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></div>
@@ -168,10 +172,10 @@
                     <div class="heading"><h4>CATEGORIES</h4></div>
                     <div class="content">
                         <ul>
-                            <li><a href="#">PC Computers</a></li>
-                            <li><a href="#">Laptops & Notebooks</a></li>
-                            <li><a href="#">Mobiles & Tablet</a></li>
-                            <li><a href="#">Software</a></li>
+                            <li><a href="#">FOR MEN</a></li>
+                            <li><a href="#">FOR WOMEN</a></li>
+                            <li><a href="#">BEST SALES</a></li>
+                            <li><a href="#">ANOTHER ITEMS</a></li>
                         </ul>
                     </div>
                 </div>
@@ -179,11 +183,10 @@
                     <div class="heading"><h4>TYPE</h4></div>
                     <div class="content">
                         <select>
-                            <option value="EL" selected>Electronics</option>
-                            <option value="MT">Mice and Trackballs</option>
-                            <option value="WC">Web Cameras</option>
-                            <option value="TA">Tablates</option>
-                            <option value="AP">Audio Parts</option>
+                            <option value="LU" selected>LUXURY</option>
+                            <option value="ST">STANDARD</option>
+                            <option value="HC">HIGH-CLASS</option>
+                            
                         </select>
                     </div>
                 </div>
@@ -200,39 +203,37 @@
                 <div class="widget wid-brand">
                     <div class="heading"><h4>BRAND</h4></div>
                     <div class="content">
-                        <label class="checkbox"><input type="checkbox" name="brand">Nokia</label>
-                        <label class="checkbox"><input type="checkbox" name="brand">Samsung</label>
-                        <label class="checkbox"><input type="checkbox" name="brand">Iphone</label>
-                        <label class="checkbox"><input type="checkbox" name="brand">HTC</label>
-                        <label class="checkbox"><input type="checkbox" name="brand">Oppo</label>
-                        <label class="checkbox"><input type="checkbox" name="brand">Kings</label>
-                        <label class="checkbox"><input type="checkbox" name="brand">Zumba</label>
+                        <label class="checkbox"><input type="checkbox" name="brand">GUCCI</label>
+                        <label class="checkbox"><input type="checkbox" name="brand">ARMAF</label>
+                        <label class="checkbox"><input type="checkbox" name="brand">ARMANI</label>
+                        <label class="checkbox"><input type="checkbox" name="brand">VALENTINO</label>
+                        
                     </div>
                 </div>
                 <div class="widget wid-product">
                     <div class="heading"><h4>LATEST</h4></div>
                     <div class="content">
                         <div class="product">
-                            <a href="#"><img src="~/Asset/images/galaxy-note.jpg" /></a>
+                            <a href="#"><img src="~/Asset/images/gio.png" /></a>
                             <div class="wrapper">
-                                <h5><a href="#">Samsung Galaxy Tab</a></h5>
-                                <div class="price">$122</div>
+                                <h5><a href="#">GIORGIO ARMANI ACQUA DI GIO</a></h5>
+                                <div class="price">$170 <span>$120</span></div>
                                 <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></div>
                             </div>
                         </div>
                         <div class="product">
-                            <a href="#"><img src="~/Asset/images/galaxy-s4.jpg" /></a>
+                            <a href="#"><img src="~/Asset/images/afmafRemake.png" /></a>
                             <div class="wrapper">
-                                <h5><a href="#">Samsung Galaxy Tab</a></h5>
-                                <div class="price">$122</div>
+                                <h5><a href="#">ARMAF CLUB DE NUIT WOMEN</a></h5>
+                                <div class="price">$300 <span>$190</span></div>
                                 <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></div>
                             </div>
                         </div>
                         <div class="product">
-                            <a href="#"><img src="~/Asset/images/Z1.png" /></a>
+                            <a href="#"><img src="~/Asset/images/valentinov2.png" /></a>
                             <div class="wrapper">
-                                <h5><a href="#">Samsung Galaxy Tab</a></h5>
-                                <div class="price">$122</div>
+                                <h5><a href="#">VALENTINO DONNA BORN IN ROMA</a></h5>
+                                <div class="price">$200 <span>$150</span> </div>
                                 <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></div>
                             </div>
                         </div>

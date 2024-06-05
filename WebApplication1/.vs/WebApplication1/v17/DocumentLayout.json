@@ -1,65 +1,50 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\WinFormProject\\WebApplication1\\",
+  "WorkspaceRootPath": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|d:\\winformproject\\webapplication1\\webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|d:\\winformproject\\webapplication1\\webapplication1\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\asset\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\asset\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\asset\\js\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\asset\\js\\bootstrap.min.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\asset\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\asset\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\models\\bus\\shoponlinebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\bus\\shoponlinebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\asset\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\asset\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|WebApplication1||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|D:\\WinFormProject\\WebApplication1\\webapplication1\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -77,24 +62,102 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-02T16:02:29.188Z",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T08:09:21.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-05T08:07:04.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T08:06:31.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T10:04:45.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShopOnlineBUS.cs",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T18:01:06.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Details.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Details.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Details.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shop\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-02T10:33:01.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShopController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\ShopController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ShopController.cs",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\ShopController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\ShopController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-04T15:48:36.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Controllers\\LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\LoginController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\LoginController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,163 +166,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T10:04:45.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shop\\Details.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Details.cshtml",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shop\\Details.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shop\\Details.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAB5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T10:33:01.457Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_MainLayout.cshtml",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T09:35:07.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "bootstrap.min.css",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Asset\\css\\bootstrap.min.css",
-              "RelativeDocumentMoniker": "WebApplication1\\Asset\\css\\bootstrap.min.css",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Asset\\css\\bootstrap.min.css",
-              "RelativeToolTip": "WebApplication1\\Asset\\css\\bootstrap.min.css",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAACOhQEA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-03T18:16:13.398Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ShopController.cs",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ShopController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAATAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:48:36.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKAAAAAAAAAAAAAAAFIAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T09:40:25.985Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Web.config",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Web.config",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Web.config",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Web.config",
-              "RelativeToolTip": "WebApplication1\\Views\\Web.config",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2024-06-02T09:41:06.074Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "bootstrap.min.js",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Asset\\js\\bootstrap.min.js",
-              "RelativeDocumentMoniker": "WebApplication1\\Asset\\js\\bootstrap.min.js",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Asset\\js\\bootstrap.min.js",
-              "RelativeToolTip": "WebApplication1\\Asset\\js\\bootstrap.min.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-06-04T09:31:27.108Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Login\\Index.cshtml",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Login\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-04T08:39:49.015Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\_ViewStart.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T09:35:52.659Z"
+              "WhenOpened": "2024-06-02T09:35:52.659Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "style.css",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Asset\\css\\style.css",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Asset\\css\\style.css",
               "RelativeDocumentMoniker": "WebApplication1\\Asset\\css\\style.css",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Asset\\css\\style.css",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Asset\\css\\style.css",
               "RelativeToolTip": "WebApplication1\\Asset\\css\\style.css",
               "ViewState": "AQIAABUAAAAAAAAAAAAAAL0AAABSAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-03T18:16:31.302Z"
+              "WhenOpened": "2024-06-03T18:16:31.302Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 9,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T10:44:17.833Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "WebApplication1",
-              "DocumentMoniker": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeDocumentMoniker": "WebApplication1\\WebApplication1.csproj",
-              "ToolTip": "D:\\WinFormProject\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-              "RelativeToolTip": "WebApplication1\\WebApplication1.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-06-03T20:15:58.759Z"
+              "WhenOpened": "2024-06-02T10:44:17.833Z",
+              "EditorCaption": ""
             }
           ]
         }
