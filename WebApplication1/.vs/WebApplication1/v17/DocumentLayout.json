@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_loaisanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_loaisanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -21,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\models\\bus\\shoponlinebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\bus\\shoponlinebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_loaisanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_loaisanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_tophot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -58,7 +58,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Index.cshtml",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shop\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-08T07:24:45.091Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-08T07:24:45.091Z"
             },
             {
               "$type": "Document",
@@ -79,12 +78,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_TopHot.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T06:22:59.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T06:22:59.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "_LoaiSanPham.cshtml",
               "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_LoaiSanPham.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_LoaiSanPham.cshtml",
@@ -110,7 +108,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Details.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Details.cshtml",
@@ -118,12 +116,11 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shop\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T18:14:55.462Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T18:14:55.462Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ShopOnlineBUS.cs",
               "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
@@ -131,12 +128,11 @@
               "RelativeToolTip": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAADAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T22:59:29.154Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T22:59:29.154Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Top4New.cshtml",
               "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_Top4New.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Top4New.cshtml",
@@ -144,8 +140,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Top4New.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-07T05:26:10.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-07T05:26:10.851Z"
             },
             {
               "$type": "Document",
@@ -157,8 +152,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Login\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T22:15:18.288Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T22:15:18.288Z"
             },
             {
               "$type": "Document",
@@ -170,8 +164,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_NhaSanXuat.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T21:38:46.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T21:38:46.487Z"
             },
             {
               "$type": "Document",
@@ -183,8 +176,7 @@
               "RelativeToolTip": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
               "ViewState": "AQIAAEUAAAAAAAAAAAAAAFYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-06T21:28:54.337Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T21:28:54.337Z"
             }
           ]
         }
