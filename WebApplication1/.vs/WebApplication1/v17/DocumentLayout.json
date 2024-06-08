@@ -3,48 +3,44 @@
   "WorkspaceRootPath": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shop\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\shopcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|c:\\users\\kiet\\onedrive\\m\u00E1y t\u00EDnh\\shop\\shoponline\\webapplication1\\webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_top4new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_top4new.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\models\\bus\\shoponlinebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\models\\bus\\shoponlinebus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_loaisanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_loaisanpham.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\asset\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\asset\\css\\style.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_tophot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_tophot.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_mainlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\shared\\_nhasanxuat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\shared\\_nhasanxuat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\webapplication1\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{F2640099-17D8-4947-8CB4-4ACB099619D2}|WebApplication1\\WebApplication1.csproj|solutionrelative:webapplication1\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -62,145 +58,132 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
-              "ViewState": "AQIAAKUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shop\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T08:09:21.868Z",
+              "WhenOpened": "2024-06-08T07:24:45.091Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "_MainLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFsAAAAyAAAA",
+              "DocumentIndex": 6,
+              "Title": "_TopHot.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_TopHot.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_TopHot.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_TopHot.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_TopHot.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAB1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-05T08:07:04.85Z",
+              "WhenOpened": "2024-06-07T06:22:59.461Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T08:06:31.138Z",
+              "DocumentIndex": 5,
+              "Title": "_LoaiSanPham.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_LoaiSanPham.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_LoaiSanPham.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_LoaiSanPham.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_LoaiSanPham.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:28:44.901Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Index.cshtml",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Index.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shop\\Index.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA0AAAA",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T10:04:45.089Z",
+              "WhenOpened": "2024-06-06T23:26:26.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ShopOnlineBUS.cs",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
-              "RelativeToolTip": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T18:01:06.621Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Details.cshtml",
               "RelativeDocumentMoniker": "WebApplication1\\Views\\Shop\\Details.cshtml",
               "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shop\\Details.cshtml",
               "RelativeToolTip": "WebApplication1\\Views\\Shop\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABOAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T10:33:01.457Z",
+              "WhenOpened": "2024-06-06T18:14:55.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ShopOnlineBUS.cs",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "RelativeToolTip": "WebApplication1\\Models\\BUS\\ShopOnlineBUS.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T22:59:29.154Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "ShopController.cs",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\ShopController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ShopController.cs",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\ShopController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\ShopController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T15:48:36.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-04T08:39:39.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\_ViewStart.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Title": "_Top4New.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_Top4New.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Top4New.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_Top4New.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Top4New.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T09:35:52.659Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "style.css",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Asset\\css\\style.css",
-              "RelativeDocumentMoniker": "WebApplication1\\Asset\\css\\style.css",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Asset\\css\\style.css",
-              "RelativeToolTip": "WebApplication1\\Asset\\css\\style.css",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAL0AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-06-03T18:16:31.302Z",
+              "WhenOpened": "2024-06-07T05:26:10.851Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Login\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-06-02T10:44:17.833Z",
+              "WhenOpened": "2024-06-06T22:15:18.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_NhaSanXuat.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_NhaSanXuat.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_NhaSanXuat.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_NhaSanXuat.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_NhaSanXuat.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAB7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:38:46.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_MainLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeDocumentMoniker": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "ToolTip": "C:\\Users\\KIET\\OneDrive\\M\u00E1y t\u00EDnh\\SHOP\\ShopOnline\\WebApplication1\\WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "RelativeToolTip": "WebApplication1\\Views\\Shared\\_MainLayout.cshtml",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAAAFYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-06T21:28:54.337Z",
               "EditorCaption": ""
             }
           ]

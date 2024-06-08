@@ -11,9 +11,8 @@
         <div class="row">
             <div class="col-lg-12">
                 <ul class="breadcrumb">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</a></li>
-                    <li>@Html.ActionLink("Category", "Index", "Shop")</a></li>
-                    <li><a href="#">@Model.TenSanPham</a></li>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Category", "Index", "Shop")</li>
                 </ul>
             </div>
         </div>
@@ -26,16 +25,16 @@
                             <div class="image-more">
                                 <ul class="row">
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh1"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh1" style = "width: 63px; height: 63px; "></a>
                                     </li>
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh2"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh2" style = "width: 63px; height: 63px; "></a>
                                     </li>
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh3"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh3" style = "width: 63px; height: 63px; "></a>
                                     </li>
                                     <li class="col-lg-3 col-sm-3 col-xs-4">
-                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh4"></a>
+                                        <a href="#"><img class="img-responsive" src="~/Asset/images/@Model.Hinh4" style = "width: 63px; height: 63px; "></a>
                                     </li>
                                 </ul>
                             </div>
@@ -46,7 +45,7 @@
                             <div class="name"><h3>@Model.TenSanPham</h3></div>
                             <div class="info">
                                 <ul>
-                                    
+
                                     <li>ID: @Model.MaNhaSanXuat</li>
                                 </ul>
                             </div>
@@ -120,6 +119,7 @@
                     <div class="products">
                         <div class="col-lg-4 col-md-4 col-xs-12">
                             <div class="product">
+                                
                                 <div class="image"><a href="product.html"><img src="~/Asset/images/iphone.png" /></a></div>
                                 <div class="buttons">
                                     <a class="btn cart" href="#"><span class="glyphicon glyphicon-shopping-cart"></span></a>
@@ -157,7 +157,7 @@
                                     <a class="btn compare" href="#"><span class="glyphicon glyphicon-transfer"></span></a>
                                 </div>
                                 <div class="caption">
-                                    <div class="name"><h3><a href="product.html">Aliquam erat volutpat</a></div>
+                                    <div class="name"><h3><a href="product.html">Aliquam erat volutpat</a></h3></div>
                                     <div class="price">$122<span>$98</span></div>
                                     <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></div>
                                 </div>
@@ -186,7 +186,7 @@
                             <option value="LU" selected>LUXURY</option>
                             <option value="ST">STANDARD</option>
                             <option value="HC">HIGH-CLASS</option>
-                            
+
                         </select>
                     </div>
                 </div>
@@ -207,7 +207,7 @@
                         <label class="checkbox"><input type="checkbox" name="brand">ARMAF</label>
                         <label class="checkbox"><input type="checkbox" name="brand">ARMANI</label>
                         <label class="checkbox"><input type="checkbox" name="brand">VALENTINO</label>
-                        
+
                     </div>
                 </div>
                 <div class="widget wid-product">
@@ -218,7 +218,8 @@
                             <div class="wrapper">
                                 <h5><a href="#">GIORGIO ARMANI ACQUA DI GIO</a></h5>
                                 <div class="price">$170 <span>$120</span></div>
-                                <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span></div>
+                                <div class="rating"><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span><span class="glyphicon glyphicon-star-empty"></span></div>
+
                             </div>
                         </div>
                         <div class="product">
@@ -242,4 +243,5 @@
             </div>
         </div>
     </div>
+</div>
 </div>

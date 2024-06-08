@@ -46,6 +46,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="PagedList, Version=1.17.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc, Version=4.5.0.0, Culture=neutral, PublicKeyToken=abbb863e9397c5e1, processorArchitecture=MSIL">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -121,11 +127,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\LoaiSanPhamController.cs" />
     <Compile Include="Controllers\LoginController.cs" />
+    <Compile Include="Controllers\NhaSanXuatController.cs" />
     <Compile Include="Controllers\ShopController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\BUS\LoaiSanPhamBUS.cs" />
+    <Compile Include="Models\BUS\NhaSanXuatBUS.cs" />
     <Compile Include="Models\BUS\ShopOnlineBUS.cs" />
     <Compile Include="Models\Generated\Database.cs">
       <AutoGen>True</AutoGen>
@@ -160,6 +170,25 @@
     <Content Include="Asset\images\8.png" />
     <Content Include="Asset\images\9.png" />
     <Content Include="Asset\images\afmafRemake.png" />
+    <Content Include="Asset\images\Armaf_1.1.png" />
+    <Content Include="Asset\images\Armaf_1.2.png" />
+    <Content Include="Asset\images\Armaf_1.3.png" />
+    <Content Include="Asset\images\Armaf_1.4.png" />
+    <Content Include="Asset\images\Armaf_1.chinh.png" />
+    <Content Include="Asset\images\armaf_1.png" />
+    <Content Include="Asset\images\Armaf_2.1.png" />
+    <Content Include="Asset\images\Armaf_2.2.png" />
+    <Content Include="Asset\images\Armaf_2.3.png" />
+    <Content Include="Asset\images\Armaf_2.4.png" />
+    <Content Include="Asset\images\Armaf_2.png" />
+    <Content Include="Asset\images\Armaf_2_chinh.png" />
+    <Content Include="Asset\images\Armaf_3.png" />
+    <Content Include="Asset\images\Armaf_4.png" />
+    <Content Include="Asset\images\Armaf_chinh.png" />
+    <Content Include="Asset\images\Armaf_La_Rosa_1.png" />
+    <Content Include="Asset\images\Armaf_La_Rosa_2.png" />
+    <Content Include="Asset\images\Armaf_La_Rosa_chinh.png" />
+    <Content Include="Asset\images\Armag_La_Rosa_3.png" />
     <Content Include="Asset\images\close.png" />
     <Content Include="Asset\images\discover-curved-32px.png" />
     <Content Include="Asset\images\galaxy-note-1.jpg" />
@@ -167,7 +196,42 @@
     <Content Include="Asset\images\galaxy-note-3.jpg" />
     <Content Include="Asset\images\galaxy-note-4.jpg" />
     <Content Include="Asset\images\gio.png" />
+    <Content Include="Asset\images\Giorgio_1.1.png" />
+    <Content Include="Asset\images\Giorgio_1.2.png" />
+    <Content Include="Asset\images\Giorgio_1.3.png" />
+    <Content Include="Asset\images\Giorgio_1.4.png" />
+    <Content Include="Asset\images\Giorgio_1.png" />
+    <Content Include="Asset\images\Giorgio_1_chinh.png" />
+    <Content Include="Asset\images\Giorgio_2.1.png" />
+    <Content Include="Asset\images\Giorgio_2.2.png" />
+    <Content Include="Asset\images\Giorgio_2.3.png" />
+    <Content Include="Asset\images\Giorgio_2.4.png" />
+    <Content Include="Asset\images\Giorgio_2.png" />
+    <Content Include="Asset\images\Giorgio_2_chinh.png" />
+    <Content Include="Asset\images\Giorgio_3.1.png" />
+    <Content Include="Asset\images\Giorgio_3.2.png" />
+    <Content Include="Asset\images\Giorgio_3.3.png" />
+    <Content Include="Asset\images\Giorgio_3.4.png" />
+    <Content Include="Asset\images\Giorgio_3.png" />
+    <Content Include="Asset\images\Giorgio_3_chinh.png" />
+    <Content Include="Asset\images\Giorgio_4.png" />
+    <Content Include="Asset\images\Giorgio_chinh.png" />
+    <Content Include="Asset\images\Gucci Flora_1.png" />
+    <Content Include="Asset\images\Gucci Flora_3.png" />
+    <Content Include="Asset\images\Gucci Flora_4.png" />
     <Content Include="Asset\images\gucci.png" />
+    <Content Include="Asset\images\Gucci_Bloom_1.1.png" />
+    <Content Include="Asset\images\Gucci_Bloom_1.2.png" />
+    <Content Include="Asset\images\Gucci_Bloom_1.3.png" />
+    <Content Include="Asset\images\Gucci_Bloom_1.4.png" />
+    <Content Include="Asset\images\Gucci_Bloom_1.png" />
+    <Content Include="Asset\images\Gucci_Bloom_1_chinh.png" />
+    <Content Include="Asset\images\Gucci_Bloom_2.png" />
+    <Content Include="Asset\images\Gucci_Bloom_3.png" />
+    <Content Include="Asset\images\Gucci_Bloom_4.png" />
+    <Content Include="Asset\images\Gucci_Bloom_chinh.png" />
+    <Content Include="Asset\images\Gucci_Flora_2.png" />
+    <Content Include="Asset\images\Gucci_Flora_Chinh.png" />
     <Content Include="Asset\images\loading.gif" />
     <Content Include="Asset\images\logofooter.png" />
     <Content Include="Asset\images\maestro-curved-32px.png" />
@@ -184,6 +248,26 @@
     <Content Include="Asset\images\subBanner4.png" />
     <Content Include="Asset\images\subBanner5.png" />
     <Content Include="Asset\images\valentinov2.png" />
+    <Content Include="Asset\images\Valentino_1.1.png" />
+    <Content Include="Asset\images\Valentino_1.2.png" />
+    <Content Include="Asset\images\Valentino_1.3.png" />
+    <Content Include="Asset\images\Valentino_1.4.png" />
+    <Content Include="Asset\images\Valentino_1.png" />
+    <Content Include="Asset\images\Valentino_1_chinh.png" />
+    <Content Include="Asset\images\Valentino_2.1.png" />
+    <Content Include="Asset\images\Valentino_2.2.png" />
+    <Content Include="Asset\images\Valentino_2.3.png" />
+    <Content Include="Asset\images\Valentino_2.4.png" />
+    <Content Include="Asset\images\Valentino_2.png" />
+    <Content Include="Asset\images\Valentino_2_chinh.png" />
+    <Content Include="Asset\images\Valentino_3.png" />
+    <Content Include="Asset\images\Valentino_4.png" />
+    <Content Include="Asset\images\Valentino_chinh.png" />
+    <Content Include="Asset\images\Valentino_Valentina_2.png" />
+    <Content Include="Asset\images\Valentino_Valentina_3.png" />
+    <Content Include="Asset\images\Valentino_Valentina_4.png" />
+    <Content Include="Asset\images\Valentino_Valentina_chinh.png" />
+    <Content Include="Asset\images\Valentino_Valentina__1.png" />
     <Content Include="Asset\images\visa-curved-32px.png" />
     <Content Include="Asset\images\web_logo.png" />
     <Content Include="Asset\js\bootstrap.min.js" />
@@ -207,6 +291,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\bootstrap.rtl.css" />
     <Content Include="Content\bootstrap.rtl.min.css" />
+    <Content Include="Content\PagedList.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -284,6 +369,14 @@
     <Content Include="Views\Shop\Index.cshtml" />
     <Content Include="Views\Shop\Details.cshtml" />
     <Content Include="Views\Login\Index.cshtml" />
+    <Content Include="Views\Shared\_Footer.cshtml" />
+    <Content Include="Views\Shared\_Header.cshtml" />
+    <Content Include="Views\Shared\_NhaSanXuat.cshtml" />
+    <Content Include="Views\NhaSanXuat\Index.cshtml" />
+    <Content Include="Views\Shared\_LoaiSanPham.cshtml" />
+    <Content Include="Views\LoaiSanPham\Index.cshtml" />
+    <Content Include="Views\Shared\_Top4New.cshtml" />
+    <Content Include="Views\Shared\_TopHot.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

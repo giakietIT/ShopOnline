@@ -32,64 +32,62 @@
 
 
 
+using PetaPoco;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using PetaPoco;
 
 namespace ShopOnlineConnection
 {
 
 	public partial class ShopOnlineConnectionDB : Database
 	{
-		public ShopOnlineConnectionDB() 
+		public ShopOnlineConnectionDB()
 			: base("ShopOnlineConnection")
 		{
 			CommonConstruct();
 		}
 
-		public ShopOnlineConnectionDB(string connectionStringName) 
+		public ShopOnlineConnectionDB(string connectionStringName)
 			: base(connectionStringName)
 		{
 			CommonConstruct();
 		}
-		
+
 		partial void CommonConstruct();
-		
+
 		public interface IFactory
 		{
 			ShopOnlineConnectionDB GetInstance();
 		}
-		
+
 		public static IFactory Factory { get; set; }
-        public static ShopOnlineConnectionDB GetInstance()
-        {
-			if (_instance!=null)
+		public static ShopOnlineConnectionDB GetInstance()
+		{
+			if (_instance != null)
 				return _instance;
-				
-			if (Factory!=null)
+
+			if (Factory != null)
 				return Factory.GetInstance();
 			else
 				return new ShopOnlineConnectionDB();
-        }
+		}
 
 		[ThreadStatic] static ShopOnlineConnectionDB _instance;
-		
+
 		public override void OnBeginTransaction()
 		{
-			if (_instance==null)
-				_instance=this;
+			if (_instance == null)
+				_instance = this;
 		}
-		
+
 		public override void OnEndTransaction()
 		{
-			if (_instance==this)
-				_instance=null;
+			if (_instance == this)
+				_instance = null;
 		}
-        
 
-		public class Record<T> where T:new()
+
+		public class Record<T> where T : new()
 		{
 			public static ShopOnlineConnectionDB repo { get { return ShopOnlineConnectionDB.GetInstance(); } }
 			public bool IsNew() { return repo.IsNew(this); }
@@ -131,11 +129,11 @@ namespace ShopOnlineConnection
 		}
 
 	}
-	
 
 
 
-    
+
+
 
 	[TableName("dbo.LoaiSanPham")]
 
@@ -144,8 +142,8 @@ namespace ShopOnlineConnection
 
 	[ExplicitColumns]
 
-    public partial class LoaiSanPham : ShopOnlineConnectionDB.Record<LoaiSanPham>  
-    {
+	public partial class LoaiSanPham : ShopOnlineConnectionDB.Record<LoaiSanPham>
+	{
 
 
 
@@ -161,19 +159,19 @@ namespace ShopOnlineConnection
 
 	}
 
-    
+
 
 	[TableName("dbo.NhaSanXuat")]
 
 
 
-	[PrimaryKey("MaNhaSanXuat", AutoIncrement=false)]
+	[PrimaryKey("MaNhaSanXuat", AutoIncrement = false)]
 
 
 	[ExplicitColumns]
 
-    public partial class NhaSanXuat : ShopOnlineConnectionDB.Record<NhaSanXuat>  
-    {
+	public partial class NhaSanXuat : ShopOnlineConnectionDB.Record<NhaSanXuat>
+	{
 
 
 
@@ -189,19 +187,19 @@ namespace ShopOnlineConnection
 
 	}
 
-    
+
 
 	[TableName("dbo.SanPham")]
 
 
 
-	[PrimaryKey("MaSanPham", AutoIncrement=false)]
+	[PrimaryKey("MaSanPham", AutoIncrement = false)]
 
 
 	[ExplicitColumns]
 
-    public partial class SanPham : ShopOnlineConnectionDB.Record<SanPham>  
-    {
+	public partial class SanPham : ShopOnlineConnectionDB.Record<SanPham>
+	{
 
 
 
@@ -279,8 +277,10 @@ namespace ShopOnlineConnection
 
 		[Column] public string TinhTrang { get; set; }
 
-
-
+		internal object ToPageList()
+		{
+			throw new NotImplementedException();
+		}
 	}
 
 
