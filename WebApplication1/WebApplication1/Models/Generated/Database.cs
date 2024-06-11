@@ -183,7 +183,7 @@ namespace ShopOnlineConnection
 
 		[Column] public string TenNhaSanXuat { get; set; }
 
-
+		[Column] public string TinhTrang { get; set; }
 
 	}
 

@@ -1,0 +1,68 @@
+﻿@model ShopOnlineConnection.NhaSanXuat
+@{
+    ViewBag.Title = "XoaTamThoi";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayoutAdmin.cshtml";
+}
+
+<style>
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: goldenrod;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type=submit]:hover {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+</style>
+<body>
+
+
+
+    <div style="margin: auto;">
+        @using (Html.BeginForm("XoaTamThoi", "NhaSanXuatAdmin", FormMethod.Post, new { @style = "width: 50%; margin: auto" }))
+        {
+            <label for="fname">BRAND ID</label>
+            <input type="text" id="fname" name="MaNhaSanXuat" style="background-color: #f2f2f2" placeholder="Enter Brand ID.." readonly>
+
+            <label for="lname">BRAND NAME</label>
+            <input type="text" id="lname" name="TenNhaSanXuat" style="background-color: #f2f2f2" placeholder="Enter Brand Name.." readonly>
+
+            <label for="country">Tinh Trang</label>
+            <select id="country" name="TinhTrang" style="width:20%; background-color:#f2f2f2; border: solid 2px black; font-weight: 600;">
+                @if (Model.TinhTrang == "1")
+                {
+                    <option value="1" selected>Locked</option>
+
+                }
+                else
+                {
+                    <option value="0" selected>Unlocked</option>
+                }
+
+            </select>   
+
+            <input type="submit" value="Confirm to Delete Brand">
+        }
+
+
+    </div>
+
+
+

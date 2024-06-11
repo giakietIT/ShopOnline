@@ -1,0 +1,62 @@
+﻿@model IEnumerable<ShopOnlineConnection.NhaSanXuat> 
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayoutAdmin.cshtml";
+}
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: auto;
+        border: solid 2px;
+    }
+
+    th, td {
+        text-align: center;
+        padding: 8px;
+        border: solid 2px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        border: solid 2px;
+
+    }
+
+    th {
+        background-color: goldenrod;
+        color: white;
+        text-transform: uppercase;
+        border: solid 2px black;
+    }
+</style>
+
+    <h2>BRANDS MANAGE</h2>
+
+    <table>
+        <tr>
+            <th>BRAND ID</th>
+            <th>BRAND NAME</th>
+           
+            <th colspan="2" ><a href="@Url.Action("Create", "NhaSanXuatAdmin")"><img src="~/Asset/images/addProduct.png" style="margin-left: 5%;"></a></th>
+
+        </tr>
+
+        @foreach (var item in Model) {
+            <tr>
+                <td>@item.MaNhaSanXuat</td>
+                <td>@item.TenNhaSanXuat</td>
+                <td>
+                    <a href="@Url.Action("Edit", "NhaSanXuatAdmin", new {id = item.MaNhaSanXuat})"><img src="~/Asset/images/edit.png"></a>
+                </td>
+
+                <td>
+                    <a href="@Url.Action("XoaTamThoi", "NhaSanXuatAdmin", new {id = item.MaNhaSanXuat})"><img src="~/Asset/images/delete.png"></a>
+                </td>
+            </tr>
+            }
+        
+       
+    </table>
+
