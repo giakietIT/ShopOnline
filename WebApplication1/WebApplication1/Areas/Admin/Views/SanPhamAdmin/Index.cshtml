@@ -1,8 +1,71 @@
-﻿
+﻿@model IEnumerable<ShopOnlineConnection.SanPham>
 @{
     ViewBag.Title = "Index";
     Layout = "~/Areas/Admin/Views/Shared/_MainLayoutAdmin.cshtml";
 }
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: auto;
+        border: solid 2px;
+    }
 
-<h2>Index</h2>
+    th, td {
+        text-align: center;
+        padding: 8px;
+        border: solid 2px;
+    }
 
+    tr:nth-child(even) {
+        background-color: #f2f2f2;
+        border: solid 2px;
+    }
+
+    th {
+        background-color: goldenrod;
+        color: white;
+        text-transform: uppercase;
+        border: solid 2px black;
+    }
+
+</style>
+
+<h2>PRODUCT TYPE MANAGE</h2>
+
+<table>
+    <tr>
+        <th>PRODUCT ID</th>
+        <th>PRODUCT NAME</th>
+        <th>IMAGE</th>
+
+        <th colspan="2"><a href="@Url.Action("Create", "SanPhamAdmin")"><img src="~/Asset/images/addProduct.png" style="margin-left: 5%;"></a></th>
+
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.MaSanPham</td>
+            <td>@item.TenSanPham</td>
+            <td><img src="@item.HinhChinh" style="width: 30px; height: 30px;"></td>
+            <td>
+                <a href="@Url.Action("Edit", "SanPhamAdmin", new {id = item.MaSanPham})"><img src="~/Asset/images/edit.png"></a>
+            </td>
+
+            <td>
+                <a href="@Url.Action("XoaTamThoi", "SanPhamAdmin", new {id = item.MaSanPham})"><img src="~/Asset/images/delete.png"></a>
+            </td>
+
+            @*<td>
+                    @Html.ActionLink(
+        "Delete",
+        "Delete",
+        new { id = item.MaLoaiSanPham },
+        new { onclick = "return confirm('Xoa LoaiSanPham?');" })
+                </td>*@
+        </tr>
+    }
+
+
+</table>

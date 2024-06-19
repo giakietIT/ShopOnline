@@ -30,5 +30,18 @@ namespace WebApplication1.Models.BUS
 			var db = new ShopOnlineConnectionDB();
 			return db.Query<SanPham>("select Top 4 * from SanPham where LuotView > 0");
 		}
+
+		//=====================
+		public static IEnumerable<SanPham> DanhSachAdmin()
+		{
+			var db = new ShopOnlineConnectionDB();
+			return db.Query<SanPham>("select * from SanPham");
+		}
+
+		public static void ThemSP(SanPham sp)
+		{
+			var db = new ShopOnlineConnectionDB();
+			db.Insert(sp);
+		}
 	}
 }

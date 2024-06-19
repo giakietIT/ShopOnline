@@ -160,3 +160,7 @@ C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication
 C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication1\bin\PagedList.xml
 C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication1\bin\PagedList.Mvc.dll
 C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication1\bin\PagedList.Mvc.xml
+C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication1\bin\EntityFramework.dll
+C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.dll
+C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication1\bin\EntityFramework.xml
+C:\Users\KIET\OneDrive\Máy tính\SHOP\ShopOnline\WebApplication1\WebApplication1\bin\EntityFramework.SqlServer.xml

@@ -1,0 +1,133 @@
+﻿@model WebApplication1.Areas.Admin.CreateSanPhamViewModel
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Admin/Views/Shared/_MainLayoutAdmin.cshtml";
+}
+<script src="~/Areas/AssetAdmin/Scripts/Product/previewFile.js"></script>
+
+<style>
+    input[type=text] {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ff0000;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: goldenrod;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type=submit]:hover {
+            background-color: #f2f2f2;
+            color: #000;
+        }
+</style>
+
+<h3 style="color:red"><strong>@TempData["Message"]</strong></h3>
+
+<table style="width: 70%; margin: auto;">
+    @using (Html.BeginForm("Create", "SanPhamAdmin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <tr>
+            <td>MÃ SẢN PHẨM</td>
+            <td><input style="width: 300px; float: left; height: 35px;" maxlength="11" type="text" name="MaSanPham"></td>
+            <td rowspan="8">
+                <div>
+                    <img id="target" class="img" src="#" alt="Hình chính của sản phẩm  " style="float: right; width: 166px; margin-top: 100px; border: 2px solid #000; height: 300px;">
+                </div>
+            </td>
+
+        </tr>
+
+        <tr>
+            <td>MÃ LOẠI SẢN PHẨM</td>
+            <td>
+
+                @*@Html.DropDownList("MaLoaiSanPham", null, new { @style = "float: left; width: 300px; background-color: #f2f2f2; height: 40px;" })*@
+                @Html.DropDownListFor(m => m.MaNhaSanXuat, Model.NhaSanXuatList)
+            </td>
+
+
+        </tr>
+
+        <tr>
+            <td>TÊN SẢN PHẨM</td>
+            <td><input style=" width: 300px; float: left; height: 35px;" maxlength="11" type="text" name="TenSanPham" ; required></td>
+        </tr>
+
+        <tr>
+            <td>HÌNH CHÍNH</td>
+            <td><input type="File" id="file_Hinh" name="HinhChinh" onchange="previewFile();" style="float: left;" required></td>
+        </tr>
+
+        <tr>
+            <td>HÌNH 1</td>
+            <td><input type="File" id="file_Hinh1" name="Hinh1" style="float: left;" required></td>
+        </tr>
+
+        <tr>
+            <td>HÌNH 2</td>
+            <td><input type="File" id="file_Hinh2" name="Hinh2" style="float: left;" required></td>
+        </tr>
+
+        <tr>
+            <td>HÌNH 3</td>
+            <td><input type="File" id="file_Hinh3" name="Hinh3" style="float: left;" required></td>
+        </tr>
+
+        <tr>
+            <td>HÌNH 4</td>
+            <td><input type="File" id="file_Hinh4" name="Hinh4" style="float: left;" required></td>
+        </tr>
+        <tr>
+            <td>GIÁ ($)</td>
+            <td><input style="width:300px; float: left; height: 35px;" type="number" name="Gia" required></td>
+        </tr>
+
+        <tr>
+            <td>GHI CHÚ</td>
+            <td><input style="width:300px; float: left; height: 35px;" maxlength="11" type="text" name="GhiChu" required></td>
+        </tr>
+
+        @*<tr>
+                <td>XUẤT XỨ</td>
+                <td>
+                    <select style="width = 300px; float: left; height: 35px;" name="XuatXu; background-color:#f2f2f2">
+                        <option>HÀNG CHÍNH HÃNG</option>
+                        <option>HÀNG XÁCH TAY</option>
+                    </select>
+                </td>
+            </tr>*@
+
+        <tr>
+            <td>NHÀ SẢN XUẤT</td>
+            <td>
+                @*@Html.DropDownList("MaNhaSanXuat", null, new {@style = "float: left; width: 300px; background-color: #f2f2f2; height: 40px;"})*@
+                @Html.DropDownListFor(m => m.MaLoaiSanPham, Model.NhaSanXuatList)
+            </td>
+
+        </tr>
+
+
+
+        <tr>
+            <td colspan="3">
+                <input style="height: 40px; width: 300px; font-weight: 600; margin-left: 32%; background-color: goldenrod; color: #fff; border: 1px solid #eee; border-radius: 20px; box-shadow: 5px 10px #888888; line-height: 10px;"
+                       type="submit" name="btn_ThemNuocHoa" value="HOÀN TẤT THÊM NƯỚC HOA">
+            </td>
+        </tr>
+
+    }
+
+</table>

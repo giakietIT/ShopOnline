@@ -30,6 +30,8 @@
         text-transform: uppercase;
         border: solid 2px black;
     }
+
+
 </style>
 
     <h2>BRANDS MANAGE</h2>
@@ -54,9 +56,16 @@
                 <td>
                     <a href="@Url.Action("XoaTamThoi", "NhaSanXuatAdmin", new {id = item.MaNhaSanXuat})"><img src="~/Asset/images/delete.png"></a>
                 </td>
+
+                <td>
+                    @Html.ActionLink(
+        "Delete",
+        "Delete",
+        new { id = item.MaNhaSanXuat },
+        new { onclick = "return confirm('Xoa nsx?');" })
+                </td>
             </tr>
             }
         
        
     </table>
-

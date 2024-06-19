@@ -49,14 +49,12 @@
             <select id="country" name="TinhTrang" style="width:20%; background-color:#f2f2f2; border: solid 2px black; font-weight: 600;">
                 @if (Model.TinhTrang == "1")
                 {
-                    <option value="0">Unlocked</option>
                     <option value="1" selected>Locked</option>
 
                 }
                 else
                 {
                     <option value="0" selected>Unlocked</option>
-                    <option value="1" >Locked</option>
                 }
 
             </select>
@@ -66,4 +64,3 @@
 
 
     </div>
-

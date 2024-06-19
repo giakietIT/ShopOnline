@@ -43,7 +43,16 @@ namespace WebApplication1.Models.BUS
 		public static void updateNSX(string id, NhaSanXuat nsx)
 		{
 			var db = new ShopOnlineConnectionDB();
-			db.Update(id, nsx);
-		} 
+
+			nsx.MaNhaSanXuat = id; // hoac la nhu the nay
+
+			db.Update("NhaSanXuat", "MaNhaSanXuat", nsx); //gio bi loi gi nua  anh xem phan nut delete giup e vs a
+		}
+
+		public static void DeleteNsx(string id)
+		{
+			var db = new ShopOnlineConnectionDB();
+			db.Delete<NhaSanXuat>(new NhaSanXuat { MaNhaSanXuat = (id) });
+		}
 	}
-}
+} 

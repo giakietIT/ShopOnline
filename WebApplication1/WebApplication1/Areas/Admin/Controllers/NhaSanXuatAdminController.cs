@@ -87,10 +87,10 @@ namespace WebApplication1.Areas.Admin.Controllers
             {
                 // TODO: Add delete logic here
                 nsx.TinhTrang = "1";
-                NhaSanXuatBUS.updateNSX(id, nsx);
-                return RedirectToAction("Index");
+                //nsx.MaNhaSanXuat = id; // hoac la nhu the nay
+                NhaSanXuatBUS.updateNSX(id, nsx); // cho nay nsx no khong co id
+				return RedirectToAction("Index");
 
-                return RedirectToAction("Index");
             }
             catch
             {
@@ -98,20 +98,18 @@ namespace WebApplication1.Areas.Admin.Controllers
             }
         }
 
-		public ActionResult Delete(String id)
-		{
-			return View();
-		}
+        
 
-		public ActionResult Delete(String id, FormCollection collection)
+        [HttpGet]
+		public ActionResult Delete(String id)
 		{
 			try
 			{
-				// TODO: Add delete logic here
-
+                // TODO: Add delete logic here
+                NhaSanXuatBUS.DeleteNsx(id);
 				return RedirectToAction("Index");
 			}
-			catch
+			catch(Exception ex)
 			{
 				return View();
 			}

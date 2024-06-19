@@ -155,7 +155,7 @@ namespace ShopOnlineConnection
 
 		[Column] public string TenLoaiSanPham { get; set; }
 
-
+		[Column] public string TinhTrang { get; set; }
 
 	}
 
@@ -277,9 +277,33 @@ namespace ShopOnlineConnection
 
 		[Column] public string TinhTrang { get; set; }
 
+		internal static object ToList()
+		{
+			throw new NotImplementedException();
+		}
+
 		internal object ToPageList()
 		{
 			throw new NotImplementedException();
+		}
+
+		public partial class Users : ShopOnlineConnectionDB.Record<Users>
+		{
+
+
+
+			[Column] public int idUser { get; set; }
+
+
+
+
+
+			[Column] public string FirstName { get; set; }
+			[Column] public string LastName { get; set; }
+			[Column] public string Email { get; set; }
+
+			[Column] public string Password { get; set; }
+
 		}
 	}
 

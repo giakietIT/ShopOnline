@@ -1,0 +1,112 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+<style>
+    .divider:after,
+    .divider:before {
+        content: "";
+        flex: 1;
+        height: 1px;
+        background: #eee;
+    }
+
+    .h-custom {
+        height: calc(100% - 73px);
+    }
+</style>
+
+<link rel="stylesheet" href="~/Asset/themify-icon/themify-icons/themify-icons.css">
+<section class="vh-100">
+    <div class="container-fluid h-custom" >
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-md-9 col-lg-6 col-xl-5">
+                <img src="~/Asset/images/loginItem.png" style=" height: 406px; margin-left: 120px; "
+                     class="img-fluid" alt="Sample image">
+            </div>
+            <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+                <form>
+                    <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                        <p class="lead fw-normal mb-0 me-3" style="font-weight: 600; font-size: 40px; text-align: center;  ">Sign in</p>
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                            <i class="ti-facebook"></i>
+                        </button>
+
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                            <i class="ti-twitter"></i>
+                        </button>
+
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-floating mx-1">
+                            <i class="ti-linkedin"></i>
+                        </button>
+                    </div>
+
+                    
+
+                    <!-- Email input -->
+                    <div data-mdb-input-init class="form-outline mb-4">
+                        <label class="form-label" for="form3Example3" style="margin-top: 20px;">Email address</label>
+                        <input type="email" id="form3Example3" class="form-control form-control-lg" style="width: 650px;"
+                               placeholder="Enter a valid email address" />
+                    </div>
+
+                    <!-- Password input -->
+                    <div data-mdb-input-init class="form-outline mb-3">
+                        <label class="form-label" for="form3Example4" style="margin-top: 10px;">Password</label>
+                        <input type="password" id="form3Example4" class="form-control form-control-lg" style="width: 650px;"
+                               placeholder="Enter password" />
+                    </div>
+
+                    <div class="d-flex justify-content-between align-items-center">
+                        <!-- Checkbox -->
+                        <div class="form-check mb-0">
+                            <input class="form-check-input me-2" type="checkbox" value="" id="form2Example3" />
+                            <label class="form-check-label" for="form2Example3">
+                                Remember me
+                            </label>
+                        </div>
+                        <a href="#!" class="text-body">Forgot password?</a>
+                    </div>
+
+                    <div class="text-center text-lg-start mt-4 pt-2">
+                        <button type="button" data-mdb-button-init data-mdb-ripple-init class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                            Login
+                        </button>
+                        <p class="small fw-bold mt-2 pt-1 mb-0">
+                            Don't have an account? <a href="#!"
+                                                      class="link-danger"><li style="list-style-type: none; margin-top: 40px;">@Html.ActionLink("Register", "DangKy", "Account")</li></a>
+                        </p>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+        <!-- Copyright -->
+        <div class="text-white mb-3 mb-md-0">
+            Kit Perfume © 2024. All rights reserved.
+        </div>
+        <!-- Copyright -->
+        <!-- Right -->
+        <div>
+            <a href="#!" class="text-white me-4">
+                <i class="ti-facebook"></i>
+            </a>
+            <a href="#!" class="text-white me-4">
+                <i class="ti-twitter"></i>
+            </a>
+            <a href="#!" class="text-white me-4">
+                <i class="ti-google"></i>
+            </a>
+            <a href="#!" class="text-white">
+                <i class="ti-linkedin"></i>
+            </a>
+        </div>
+        <!-- Right -->
+    </div>
+</section>
+

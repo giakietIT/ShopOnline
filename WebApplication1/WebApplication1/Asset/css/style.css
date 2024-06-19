@@ -1,10 +1,4 @@
-﻿
-/*
-Free Bootstrap Themes : https://www.Zerotheme.com
-*/
-
-/* ==== Google font ==== */
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+﻿@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
 @import url('http://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 
 /* ---------------------------------------------------------------------------- */
@@ -40,7 +34,7 @@ html {
 img {
     max-width: 100%;
     height: auto;
-    width: auto\9; /* ie8 */
+    width: auto; /* ie8 */
 }
 
 h1 {
@@ -135,8 +129,8 @@ hr.line {
 /* -----------------------------------Header----------------------------------- */
 /* ---------------------------------------------------------------------------- */
 #top {
-    background: #000;
-    color: #fff;
+    background-color: goldenrod;
+    color: #000;
     padding: 7px 0;
 }
 
